@@ -1,0 +1,36 @@
+@charset "EUC-KR";
+
+#locSearchInput {
+	font-family: "a";
+	border: #FFB74D solid 5px;
+	font-size: 20pt;
+	height: 50px;
+	outline: none;
+	border: #FFB74D solid 5px;
+	text-align: center;
+}
+
+#locSearchBtn {
+	font-family: "a";
+	border: none;
+	background-color: transparent;
+	color: #FFB74D;
+	font-size: 20pt;
+	font-weight: 900;
+	height: 50px;
+}
+
+.l {
+	width: 80%;
+	margin: 20px;
+	box-shadow: 3px 3px 3px black;
+	font-size: 20pt;
+}
+
+.lName {
+	background-color: #C62828;
+	color: white;
+	font-size: 25pt;
+	height: 50px;
+	padding-left: 20px;
+}

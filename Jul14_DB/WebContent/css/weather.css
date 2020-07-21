@@ -1,0 +1,18 @@
+@charset "EUC-KR";
+
+.w {
+	width: 200px;
+	box-shadow: 3px 3px 3px black;
+	font-size: 18pt;
+	float: left;
+	margin: 20px;
+}
+
+.wHour {
+	background-color: #000000CC;
+	color: #FFB74D;
+}
+
+.wImg {
+	width: 55px;
+}

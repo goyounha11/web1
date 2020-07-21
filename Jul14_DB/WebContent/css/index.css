@@ -1,0 +1,89 @@
+@charset "EUC-KR";
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+@font-face {
+	font-family: "a";
+	src: url("a.TTF");
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+input, button {
+	outline: none;
+}
+
+#siteTitleArea {
+	font-family: "a";
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 90px;
+	border-bottom: #FFB74D solid 5px;
+	box-shadow: 3px 3px 3px black;
+	background-color: #000000CC;
+}
+
+#siteTitleArea a {
+	color: white;
+	font-size: 30pt;
+	font-weight: 900;
+}
+
+#siteContentArea {
+	font-family: "a";
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	margin-top: 120px;
+}
+
+#homeTxt {
+	font-size: 200pt;
+	text-shadow: 0px 0px 10px #FFB74D;
+}
+
+#siteMenuArea {
+	font-family: "a";
+	position: fixed;
+	top: 90px;
+	right: 10px;
+	background-color: #000000CC;
+	border-left: #FFB74D solid 5px;
+	border-bottom: #FFB74D solid 5px;
+	border-right: #FFB74D solid 5px;
+	box-shadow: 3px 3px 3px black;
+}
+
+#siteMenuArea a {
+	color: white;
+	font-size: 18pt;
+	font-weight: 900;
+}
+
+#siteMenuArea td {
+	padding-left: 15px; padding-right : 15px;
+	height: 50px;
+	padding-right: 10px;
+}
+
+#siteMenuArea a:hover {
+	text-shadow: 2px 2px 3px #FFB74D;
+}
+
+#indexImg {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	opacity: 0.4;
+}

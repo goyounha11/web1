@@ -1,0 +1,132 @@
+@charset "EUC-KR";
+
+#coffeeTbl {
+	width: 90%;
+	font-size: 20pt;
+}
+#coffeeTbl a{
+	color:#C62828;
+	font-size: 25pt;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#coffeeTbl a:hover{
+	text-shadow:3px 3px 3px #FFB74D;
+}
+#coffeeRegGo {
+	color: #000000CC;
+	font-size: 25pt;
+	text-shadow: 3px 3px 3px #FFB74D;
+}
+
+#coffeeRegGo:hover {
+	text-shadow: 3px 3px 3px #C62828;
+}
+
+#coffeeRegTbl {
+	width: 70%;
+	height: 500px;
+}
+
+#coffeeRegTbl th {
+	font-size: 40pt;
+	text-shadow: 3px 3px 3px #FFB74D;
+}
+
+#coffeeRegTbl input {
+	font-family: "a";
+	border: none;
+	border-bottom: #000000CC solid 5px;
+	width: 70%;
+	font-size: 25pt;
+	height: 70px;
+}
+
+#coffeeRegTbl input::placeholder {
+	color: #FFB74D;
+}
+
+#coffeeRegTbl input:focus {
+	border-bottom: #C62828 solid 5px;
+}
+
+#coffeeRegTbl button {
+	font-family: "a";
+	border: none;
+	background-color: transparent;
+	font-size: 35pt;
+	color: #FFB74D;
+	text-shadow: 3px 3px 3px #000000CC;
+	cursor: pointer;
+}
+
+#coffeeBBS {
+	margin: 10px;
+	width: 80%;
+	border-spacing: 0px;
+	box-shadow: 3px 3px 3px black;
+	background-image: url("../img/cf.jpg");
+	background-size: 400px; 
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+
+#coffeeBBS th {
+	background-color: #000000CC;
+	color: white;
+	height: 60px;
+	border-bottom: #FFB74D solid 3px;
+}
+
+#coffeeBBS td {
+	padding: 10px;
+}
+
+#coffeeBBS .dataTr {
+	background-color: #FFFFFFBB;
+	color: #000000CC;
+	height: 50px;
+	cursor: pointer;
+}
+
+#coffeeBBS .dataTr:hover {
+	background-color: #FFE0B2BB;
+}
+#coffeeInfoTbl{
+	border:#000000CC solid 3px;
+}
+#coffeeInfoTbl th{
+	border-bottom:#FFB74D solid 3px;
+}
+#coffeeInfoTbl input{
+	border: none;
+}
+#coffeeInfoName{
+	background-color: #000000CC;
+	color:white;
+	text-align: center;
+	height: 50px;
+	width: 400px;
+	font-size: 30pt;
+	font-family: "a";
+}
+#coffeeInfoPrice{
+	color:#000000CC;
+	text-align: center;
+	height: 50px;
+	width: 400px;
+	font-size: 25pt;
+	font-family: "a";
+}
+#coffeeInfoTbl button{
+	color:#000000CC;
+	border:none;
+	background-color: transparent;
+	font-size: 30pt;
+	width: 40%;
+	font-family: "a";
+	cursor: pointer;
+}
+#coffeeInfoTbl button:hover{
+	color:#FFB74D;
+}

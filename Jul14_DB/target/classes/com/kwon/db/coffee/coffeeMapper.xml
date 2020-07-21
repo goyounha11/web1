@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cm">
+	<select id="getAllCoffeeCount" resultType="java.lang.Integer">
+		select count(*) 
+		from JUL15_COFFEE	
+	</select>
+	<select id="getCoffee"
+		parameterType="com.kwon.db.main.DataSelector"
+		resultType="com.kwon.db.coffee.Coffee2">
+		select *
+		from (
+			select rownum as rn, c_name, c_price
+			from (
+				select *
+				from jul15_coffee
+				order by c_name
+			)
+		)
+		where rn &gt;= #{start} and rn &lt;= #{end}
+	</select>
+	<insert id="reg" 
+		parameterType="com.kwon.db.coffee.Coffee2">
+		insert into jul15_coffee
+		values(#{c_name}, #{c_price})
+	</insert>
+</mapper>
+
+
+
+
+
+
+
